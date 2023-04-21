@@ -7,6 +7,7 @@ app = Flask(__name__)
 def hello_world():  # put application's code here
     return 'Hello World!'
 
+
 @app.route('/user/create', methods=['POST'])
 def create_user():
     return
